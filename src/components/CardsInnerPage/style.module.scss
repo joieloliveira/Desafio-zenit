@@ -1,0 +1,56 @@
+.CardsInnerPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 374px;
+    height: 374px;
+    border-radius: 8px;
+    margin: 31px;
+    cursor: pointer;
+}
+
+.CardsInnerPage img:nth-child(1) {
+    align-self: flex-end;
+    z-index: 999;
+    margin-bottom: -50px;
+    margin-right: 10px;
+}
+
+.CardsInnerPage img:nth-child(2) {
+    z-index: 1;
+    width: 374px;
+    height: 374px;
+}
+
+.CardsInnerPageAtibut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 32px;
+    width: 326px;
+    height: 114px;
+    background: #FFFFFF;
+    border-radius: 8px; 
+    z-index: 999;
+    margin-top: -130px;
+    margin-bottom: 40px;
+}
+
+.CardsInnerPageAtibut p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #372F0A;
+}
+.CardsInnerPageAtibut span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8B8B8B;
+}

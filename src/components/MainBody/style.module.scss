@@ -1,0 +1,123 @@
+.mainbodyBG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.mainbodyBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: var( --boxBGWdt);
+    margin-top: 96px;
+    padding: 20px;
+}
+.mainbodyBG h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    color: var(--Font-color1);
+    text-align: center;
+}
+.mainbodyBG p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--Font-color1);
+    text-align: center;
+    margin-top: 24px;
+}
+.mainbodyBG span{
+    color: var(--Font-color2);
+}
+.mainbodyCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: var( --boxBGWdt);
+    margin-top: 144px;
+}
+.mainbodyButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+    width: var(--boxBGWdt);
+    height: 502px;
+    margin-top: -500px;
+}
+.mainbodyButton button{
+    align-items: center;
+    width: 896px;
+    height: 88px;
+    left: 64px;
+    top: 2190px;
+    background: var(--button-color);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    color: #FFFFFF;
+}
+@media(max-width: 1920px) {
+    .mainbodyCards{
+        width: 100%;
+    }
+    .mainbodyButton{
+        width: 100%;
+    }
+}
+@media(max-width: 1024px) {
+    .mainbodyBG{
+        margin-top: -80px;
+    }
+    .mainbodyCards{
+        margin-top: 55px;
+    }
+}
+@media(max-width: 990px) {
+    .mainbodyButton button{
+        width: 95%;
+    }
+}
+@media(max-width: 768px) {
+    .mainbodyBG h3{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .mainbodyBG p{
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 6px;
+    }
+}    
+@media(max-width: 680px) {
+    .mainbodyBG button{
+        width: 95%;
+    }
+}  
+@media(max-width: 425px) {
+    .mainbodyBG h3{
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .mainbodyBG p{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .mainbodyBG button{
+        font-size: 20px;
+        line-height: 24px;
+        height: 64px;
+        padding: 8px;
+    }
+} 

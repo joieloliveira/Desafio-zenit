@@ -1,0 +1,20 @@
+:root {
+  --Font-color1: #372F0A;
+  --Font-color2: #8B8B8B;
+  --button-color: #FF4869;
+  --boxBGWdt: 1920px;
+}
+* {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body{
+  background: url(img/site/background_vectors.png) top center no-repeat;
+  background-size: 100% 100vw;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url(img/font/Inter-VariableFont_slnt\,wght.ttf);
+}
